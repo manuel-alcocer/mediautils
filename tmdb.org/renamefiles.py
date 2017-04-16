@@ -4,7 +4,6 @@
 from dbmods.create import mediaDBFile
 from sys import argv, exit
 
-
 def main():
     mediaDB = mediaDBFile()
     if mediaDB.status != 1:
