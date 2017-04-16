@@ -28,12 +28,35 @@ def runCommand(optionsDict):
             getTVInfo(optionsDict)
 
 def getTVInfo(optionsDict):
-    mediaTest = tmdb()
-    mediaTest.getTVInfo(optionsDict['args'])
-    print (mediaTest.responseDict)
+    m = tmdb()
+    m.getTVInfo(tuple(optionsDict['args']))
+    if m.response.status_code == 200:
+        if m.requestType == 'tvshow':
+            showTVInfo(m.responseDict)
+        elif m.requestType == 'tvseason':
+            showSeasonInfo(m.responseDict)
+        else:
+            showEpisodeInfo(m.responseDict)
+
+def showTVInfo(responseDict):
+    print ('Nombre: %s' % responseDict['name'])
+    print ('Temporadas: %s' % responseDict['number_of_seasons'])
+    print ('Episodios: %s' % responseDict['number_of_episodes'])
+
+def showSeasonInfo(responseDict):
+    print ('Temporada: %d' % responseDict['season_number'])
+    print ('Episodios: %d\n' % len(responseDict['episodes']))
+    for episode in responseDict['episodes']:
+        print ('Número: %d' % episode['episode_number'])
+        print ('Título: %s' %episode['name'].strip())
+        print ('Descripción: %s\n' %episode['overview'].strip())
+
+def showEpisodeInfo(responseDict):
+    print ('Título: %s' % responseDict['name'].strip())
+    print ('Descripción: %s' % responseDict['overview'].strip())
 
 def makeSearch(optionsDict):
-    mediaTest = tmdb()
+    m = tmdb()
     if 'p' in optionsDict.keys():
         pNum = optionsDict['p']
     else:
@@ -42,16 +65,16 @@ def makeSearch(optionsDict):
         rNum = int(optionsDict['r']) - 1
     else:
         rNum = 0
-    mediaTest.search(optionsDict['t'], optionsDict['args'][0], str(pNum))
-    printResults(mediaTest, rNum)
+    m.search(optionsDict['t'], optionsDict['args'][0], str(pNum))
+    printResults(m, rNum)
 
-def printResults(mediaTest, rNum):
-    print ('Páginas: %d' % mediaTest.responseDict['total_pages'])
-    print ('Resultados: %d' % mediaTest.responseDict['total_results'])
-    if 0 < len(mediaTest.responseDict['results']) and rNum + 1 <= len(mediaTest.responseDict['results']):
-        idNum = mediaTest.responseDict['results'][rNum]['id']
-        name = mediaTest.responseDict['results'][rNum]['name']
-        overview = mediaTest.responseDict['results'][rNum]['overview']
+def printResults(m, rNum):
+    print ('Páginas: %d' % m.responseDict['total_pages'])
+    print ('Resultados: %d' % m.responseDict['total_results'])
+    if 0 < len(m.responseDict['results']) and rNum + 1 <= len(m.responseDict['results']):
+        idNum = m.responseDict['results'][rNum]['id']
+        name = m.responseDict['results'][rNum]['name']
+        overview = m.responseDict['results'][rNum]['overview']
         print ('id: %s' %idNum)
         print ('Nombre: %s' %name)
         print ('Descripción: %s' %overview )

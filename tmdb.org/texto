@@ -1,0 +1,112 @@
+Script started on Sun 16 Apr 2017 09:41:11 PM CEST
+[1m[7m%[27m[1m[0m                                                                                                                     ]2;manuel@pris: ~/git/mediautils/tmdb.org]1;..tils/tmdb.org[0m[27m[24m[J[01;32m➜  [36mtmdb.org[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hscript demostracion.txt[23Dclear                  [18Dman script[10D./tmdbApi.py -t tv -c info 456 2 2 [31Dipython                       [23D./tmdbApi.py -t tv -c info 456 2 1[12Dsearch simpsons[15Dinfo 456 2 1   [12Dsearch simpsons[?1l>[?2004l
+]2;./tmdbApi.py -t tv -c search simpsons]1;./tmdbApi.pyPáginas: 1
+Resultados: 3
+id: 456
+Nombre: Los Simpson
+Descripción: Los Simpsons es una comedia americana de animación creada por Matt Groening para la compañía Fox. La serie es una parodia satírica del estilo de la clase media americana encarnada por una familia con ese mismo nombre, compuesta por Homer, Marge, Bart, Lisa, y Maggie Simpson. La serie se ubica en la ciudad ficticia de Springfield y parodia la cultura, la sociedad, la televisión americanos y muchos otros aspectos de la condición humana.
+[1m[7m%[27m[1m[0m                                                                                                                     ]2;manuel@pris: ~/git/mediautils/tmdb.org]1;..tils/tmdb.org[0m[27m[24m[J[01;32m➜  [36mtmdb.org[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h./tmdbApi.py -t tv -c search simpsons[37Dscript demostracion.txt              [14D[23Dclear                  [18Dman script[10D./tmdbApi.py -t tv -c info 456 2 [?1l>[?2004l
+]2;./tmdbApi.py -t tv -c info 456]1;./tmdbApi.pyNombre: Los Simpson
+Temporadas: 29
+Episodios: 615
+[1m[7m%[27m[1m[0m                                                                                                                     ]2;manuel@pris: ~/git/mediautils/tmdb.org]1;..tils/tmdb.org[0m[27m[24m[J[01;32m➜  [36mtmdb.org[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h./tmdbApi.py -t tv -c info 456 2[?1l>[?2004l
+]2;./tmdbApi.py -t tv -c info 456 2]1;./tmdbApi.pyTemporada: 2
+Episodios: 22
+
+Número: 1
+Título: Bart reprueba
+Descripción: Después de reprobar el examen de historia, Bart llega a un acuerdo con Martin Prince para convertirlo en un chico popular a cambio de ayudarlo a estudiar. Bart logra transformar a Martin en un chico normal, pero Martin no cumple su parte del trato y Bart, una vez más, está en peligro de reprobar.
+
+Número: 2
+Título: Simpson y Dalila
+Descripción: Homero prueba un nuevo producto llamado Dimoxinil, para el crecimiento del cabello, y le crecerá una nueva y abundante cabellera. A Marge le parece que el nuevo Homero es muy sensual y el Señor Burns confunde a su empleado más incompetente con un joven hambriento de triunfar y le da un ascenso. Como parte de su nuevo puesto, Homero tendrá a un colaborador extraordinariamente atento, llamado Karl, que se asegurará que cada paso dado sea correcto y que todas sus acciones sean un éxito. Estrella invitada: Harvey Fierstein.
+
+Número: 3
+Título: El Especial de Noche de Brujas de los Simpsons
+Descripción: Bart y Lisa se cuentan historias de horror en la casa del árbol:
+
+- Bad Dream House: La familia se muda a una casa encantada.
+
+- Hungry Are The Damned: Los Simpson son secuestrados por extraterrestres, y piensan que van a ser comidos.
+
+- The Raven: Adaptación del clásico de Edgar Allan Poe con Homero como protagonista. Estrella invitada: James Earl Jones.
+
+Número: 4
+Título: Dos autos en cada cochera Y tres ojos en cada pez
+Descripción: Bart y Lisa atrapan un pez de tres ojos en un arroyo contaminado, cercano a la planta de energía nuclear de Springfield, lo que provocará una oleada de publicidad negativa para el Señor Burns. A fin de enfrentar a los medios, Burns decide buscar la candidatura como gobernador.
+
+Número: 5
+Título: Homero, el Animador
+Descripción: Al verlo bailar en un partido de béisbol, Homero atrae la atención del propietario del equipo, quien lo contrata para convertirse en la mascota de los Capitales de Ciudad Capital. Homero descubre que sus movimientos no son recibidos en Ciudad Capital tan bien como en Springfield. Estrellas invitadas: Tony Bennett y Tom Poston.
+
+Número: 6
+Título: La sociedad de los golfistas muertos
+Descripción: Para saber quién es el mejor del barrio, Homero y Ned Flanders colocan a Bart y a Todd frente a frente en una competencia de mini-golf. Los chicos entrenan sin cesar para el gran día, pero es obvio que el torneo es más importante para Homero y para Ned, quienes han apostado que el padre del perdedor deberá podar el jardín de su vecino, usando el vestido de su esposa.
+
+Número: 7
+Título: Bart contra el dia de gracias
+Descripción: Lisa se prepara para el Día de Acción de Gracias, haciendo un centro de mesa dedicado a las heroínas de la historia de los Estados Unidos. Bart pelea con Lisa y accidentalmente arroja el centro de mesa de Lisa a la chimenea, destruyéndolo. Estrella invitada: Greg Berg.
+
+Número: 8
+Título: Bart el temerario
+Descripción: En la competencia de camiones monstruo, Bart ve al capitán Lance Murdock, un piloto que tratará de saltar con su motocicleta, sobre un tanque repleto de enormes tiburones blancos, anguilas eléctricas, pirañas, lagartos y un feroz león. Inspirado por Murdock, Bart intenta saltos más arriesgados con su patineta, hasta que pone la mira en el desfiladero de Springfield.
+
+Número: 9
+Título: Tomy, Daly y Marge
+Descripción: Convencida de que las imágenes del programa de Tomy y Daly son una pésima influencia para los niños, Marge inicia una solitaria campaña en contra del programa, lo que obliga a su creador, Roger Meyers Jr. a modificar la violencia por tramas suaves y amorosas.
+
+Número: 10
+Título: Bart es atropellado
+Descripción: El Señor Burns atropella a Bart con su auto, dejándolo inconsciente. Después de consultar al corrupto abogado, Lionel Hutz, Homero y Marge intentan demandar al Señor Burns por un millón de dólares.
+
+Número: 11
+Título: Aviso de muerte
+Descripción: Homero descubre las maravillas del sushi, al probar cada uno de los pescados que aparecen en el menú del restaurante japonés. Pero es envenenado cuando come Pez globo. Luego de consultar al Doctor Hibbert, éste le da 24 horas restantes de vida. Estrellas invitadas: George Takei, Joey Miyashima, Diane Tanaka y Larry King.
+
+Número: 12
+Título: Los años que vivimos
+Descripción: Cuando se descompone el televisor, Marge aprovecha la oportunidad para compartir con Bart y Lisa la historia de cómo conoció a Homero. Estrella invitada: Jon Lovitz.
+
+Número: 13
+Título: No robaras
+Descripción: Homero se convierte en el sujeto más popular de la ciudad cuando se conecta ilegalmente a un servicio de televisión por cable. Pero Lisa no lo aprueba y teme que Homero vaya al infierno por violar el octavo mandamiento.
+
+Número: 14
+Título: El ultimo tren
+Descripción: Marge solicita la ayuda de Homero para encontrarle esposo a Selma. Luego de buscar a varios, se decide por Skinner, y lo invita a una cena con la familia, pero se enamora de Patty, provocando que Selma se sienta más deprimida.
+
+Número: 15
+Título: Donde estas hermano mio
+Descripción: Tras sufrir un ataque cardíaco, el abuelo Simpson le confiesa a Homero que tiene un hermano desconocido. Homero investiga y encuentra a su hermanastro perdido, Herb Powell, que resulta ser un millonario, presidente de una compañía automovilística. Estrella invitada: Danny DeVito.
+
+Número: 16
+Título: El perro de Bart reprueba
+Descripción: Ayudante de Santa, el perro de la familia, es enviado a una escuela de obediencia luego de comer varios objetos de gran valor sentimental para la familia. Estrella invitada: Tracey Ullman.
+
+Número: 17
+Título: Nuestros Años Felices
+Descripción: El abuelo Simpson tiene un apasionado romance con Bea Simmons, una compañera del geriátrico, hasta que ella muere. Abraham hereda una importante suma de dinero y decide donarla a quien más la necesite en Springfield. Estrella invitada: Audrey Meadows.
+
+Número: 18
+Título: Pinceles con grandeza
+Descripción: Mientras Homero intenta bajar de peso luego de un avergonzante episodio en el Monte Splashmore, Marge decide, motivada por una respuesta de Ringo Starr a su carta de 1966, volver a la pintura. Le es comisionado un retrato del señor Burns. Estrellas invitadas: Jon Lovitz y Ringo Starr.
+
+Número: 19
+Título: El Sustituto de Lisa
+Descripción: La maestra de Lisa se enferma, y en su reemplazo llega el señor Bergstrom, quien le enseña que vale la pena vivir. Mientras, Bart y Martin disputan la presidencia de su clase. Estrella invitada: Dustin Hoffman (bajo el seudónimo de Sam Etic).
+
+Número: 20
+Título: La guerra de los Simpsons
+Descripción: Después de que Homero se emborrachara en una fiesta, Marge decide asistir a un fin de semana de reconstrucción de parejas auspiciado por la iglesia, en el que Homero planea aprovechar para pescar. Mientras, dejan la casa a cargo del abuelo.
+
+Número: 21
+Título: Tres Hombres y una Historieta
+Descripción: Bart, Milhouse y Martin compran entre los tres el número 1 del Hombre Radioactivo, pero encuentran problemas a la hora de compartirlo. Estrellas invitadas: Chloris Leachman y Daniel Stern.
+
+Número: 22
+Título: Sangre nueva
+Descripción: El Señor Burns necesita sangre del tipo 0 negativo, que Bart tiene. Y Homero está dipuesto a hacer que Bart se la done, pero no sin una buena recompensa.
+
+[1m[7m%[27m[1m[0m                                                                                                                     ]2;manuel@pris: ~/git/mediautils/tmdb.org]1;..tils/tmdb.org[0m[27m[24m[J[01;32m➜  [36mtmdb.org[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004heexit[?1l>[?2004l
+]2;exit]1;exit
+Script done on Sun 16 Apr 2017 09:41:30 PM CEST
